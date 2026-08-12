@@ -50,3 +50,12 @@ This app is designed to be fully offline, meaning it does not make any network r
 - Right-click a row for Edit/Delete.
 - Once you have more than 5 accounts, a search field appears at the top and
   filters live as you type.
+
+## Opening the app.
+
+1. Download the latest release from the [releases page](https://github.com/saravanakumar-ru-ZPT-0121/KeyBar/releases/tag/v1.0)
+2. Extract the zip file and move the Keybar app to your expected folder.
+3. Open Keybar. You may need to allow it in System Preferences → Security & Privacy → General. 
+4. Or Run `xattr -d com.apple.quarantine /Applications/Keybar.app` in Terminal to remove the quarantine attribute. (xattr -cr /path/to/Keybar.app also works, but is more destructive.)
+5. If you want to use the global keyboard shortcut, you will need to allow Keybar in System Preferences → Security & Privacy → Privacy → Accessibility.
+
