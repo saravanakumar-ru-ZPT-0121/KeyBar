@@ -1,0 +1,11 @@
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+.DS_Store
+*.swiftpm/xcuserdata/
+.build/
+
+# Built app copied out of DerivedData for convenience
+/Keybar.app
